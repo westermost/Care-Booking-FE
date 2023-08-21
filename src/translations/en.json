@@ -20,7 +20,11 @@
         "medical-tests":            "Medical testing",
         "mental-health":            "Mental well-being",
         "dental-checkup":           "Dental check-ups"
-    },    
+    },
+    "section-speciality": {
+        "popular-specialties" : "Popular specialties",
+        "see-more" : "See more"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",

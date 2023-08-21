@@ -21,6 +21,10 @@
         "mental-health":            "Sức khoẻ tinh thần",
         "dental-checkup":           "Khám Nha Khoa"
     },
+    "section-speciality": {
+        "popular-specialties" : "Chuyên khoa phổ biến",
+        "see-more" : "Xem thêm"
+    },
     "common": {
         "add": "Thêm",
         "edit": "Sửa",
