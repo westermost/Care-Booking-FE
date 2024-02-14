@@ -25,6 +25,18 @@
         "popular-specialties" : "Popular specialties",
         "see-more" : "See more"
     },
+    "section-medical-facility": {
+        "popular-medical" : "Popular medical facility",
+        "see-more" : "See more"
+    },
+    "section-outstanding-doctor": {
+        "popular-medical" : "Popular outstanding doctor",
+        "see-more" : "See more"
+    },
+    "section-handbook": {
+        "popular-handbook" : "Handbook",
+        "see-more" : "See more"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",

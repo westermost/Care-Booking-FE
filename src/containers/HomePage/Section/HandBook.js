@@ -1,68 +1,68 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
-import './Speciality.scss';
+import './HandBook.scss';
 import { FormattedMessage } from 'react-intl';
 import Slider from 'react-slick';
 
-import specialityImg from '../../../assets/images/speciality/co-xuong-khop.jpg';
+import handbookImg from '../../../assets/images/handbook/cay-collagen-tuoi.png';
 
-class Speciality extends Component {
+class HandBook extends Component {
     render() {
         return (
-            <div className='section-share section-speciality'>
+            <div className='section-share section-handbook'>
                 <div className='section-container'>
                     <div className='section-header'>
                         <span className='section-title'>
-                            <FormattedMessage id='section-speciality.popular-specialties' />
+                            <FormattedMessage id='section-handbook.popular-handbook' />
                         </span>
                         <button className='btn btn-section-more'>
-                            <FormattedMessage id='section-speciality.see-more' />
+                            <FormattedMessage id='section-handbook.see-more' />
                         </button>
                     </div>
                     <div className='section-body'>
                         <Slider {...this.props.settings}>
                             <div className='section-customize'>
                                 <img
-                                    src={specialityImg}
+                                    src={handbookImg}
                                     alt=''
                                 />
-                                <div>Cơ xương khớp 1</div>
+                                <div>Hệ thống 1</div>
                             </div>
                             <div className='section-customize'>
                                 <img
-                                    src={specialityImg}
+                                    src={handbookImg}
                                     alt=''
                                 />
-                                <div>Cơ xương khớp 2</div>
+                                <div>Hệ thống 2</div>
                             </div>
                             <div className='section-customize'>
                                 <img
-                                    src={specialityImg}
+                                    src={handbookImg}
                                     alt=''
                                 />
-                                <div>Cơ xương khớp 3</div>
+                                <div>Hệ thống 3</div>
                             </div>
                             <div className='section-customize'>
                                 <img
-                                    src={specialityImg}
+                                    src={handbookImg}
                                     alt=''
                                 />
-                                <div>Cơ xương khớp 4</div>
+                                <div>Hệ thống 4</div>
                             </div>
                             <div className='section-customize'>
                                 <img
-                                    src={specialityImg}
+                                    src={handbookImg}
                                     alt=''
                                 />
-                                <div>Cơ xương khớp 5</div>
+                                <div>Hệ thống 5</div>
                             </div>
                             <div className='section-customize'>
                                 <img
-                                    src={specialityImg}
+                                    src={handbookImg}
                                     alt=''
                                 />
-                                <div>Cơ xương khớp 6</div>
+                                <div>Hệ thống 6</div>
                             </div>
                         </Slider>
                     </div>
@@ -84,5 +84,4 @@ const mapDispatchToProps = (dispatch) => {
     return {};
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Speciality);
-
+export default connect(mapStateToProps, mapDispatchToProps)(HandBook);

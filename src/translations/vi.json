@@ -25,6 +25,18 @@
         "popular-specialties" : "Chuyên khoa phổ biến",
         "see-more" : "Xem thêm"
     },
+    "section-medical-facility": {
+        "popular-medical" : "Cơ sở y tế nổi bật",
+        "see-more" : "Xem thêm"
+    },
+    "section-outstanding-doctor": {
+        "popular-medical" : "Bác sĩ nổi bật",
+        "see-more" : "Xem thêm"
+    },
+    "section-handbook": {
+        "popular-handbook" : "Cẩm nan",
+        "see-more" : "Xem thêm"
+    },
     "common": {
         "add": "Thêm",
         "edit": "Sửa",
